@@ -1,0 +1,12 @@
+homepage: "https://consent.cosmoops.com"
+documentation: "https://consent.cosmoops.com/sites"
+versions:
+  - sha: REPLACE_WITH_FIRST_COMMIT_SHA
+    changeNotes: |
+      Initial Community Template Gallery release.
+      Applies Google Consent Mode default and updated consent states from a
+      visitor's decision recorded by consent's cookie banner, mapping the
+      same necessary/preferences/statistics/marketing categories used in the
+      consent dashboard's Banner tab.
+      Region-specific default consent settings, wait_for_update, URL
+      passthrough, and ads data redaction.
