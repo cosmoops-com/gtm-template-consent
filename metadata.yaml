@@ -1,7 +1,7 @@
 homepage: "https://consent.cosmoops.com"
 documentation: "https://consent.cosmoops.com/sites"
 versions:
-  - sha: 68d514509307c17d65ff2b4341ee15bef18e8cf2
+  - sha: 84c60e83a403f5e2c9113ebe935b2ddd1cebaffe
     changeNotes: |
       Initial Community Template Gallery release.
       Applies Google Consent Mode default and updated consent states from a
