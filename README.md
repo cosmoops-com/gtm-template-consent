@@ -4,7 +4,7 @@ Applies [Google Consent Mode](https://developers.google.com/tag-platform/securit
 
 Use this when you want Tag Manager to send Consent Mode signals. You still need the consent embed script on the page for the banner itself.
 
-The embed script can send those signals too. Both default to denying everything except necessary, so running both is safe — but to keep a single source of truth, turn Consent Mode off in the consent dashboard (Banner tab) and let this template own the signals.
+The embed script can send those signals too, and running both is safe — both start by denying everything except necessary, so the duplicate default is idempotent. Just leave the Global row below denying everything except necessary, so the two agree.
 
 ## Setup
 
